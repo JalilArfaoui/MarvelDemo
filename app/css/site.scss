@@ -1,0 +1,77 @@
+body {
+  background: {
+    color: darkslateblue;
+  };
+}
+
+div.Loading {
+  color: white;
+  font-size:3em;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.CharactersListPage {
+  text-align: center;
+  h1 {
+    display: block;
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .CharactersList {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.CharacterThumbnail {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+  background: {
+    color: white;
+  };
+
+  margin-left:10px;
+  margin-bottom: 10px;
+  width: 220px;
+  height: 300px;
+
+  h2 {
+    margin-top:5px;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  .ImageCrop {
+    height: 190px;
+    width: 190px;
+    overflow: hidden;
+    margin: 0 auto;
+    img {
+      margin-top: 5px;
+    }
+  }
+  .ActionBar {
+    text-align: left;
+    bottom: 10px;
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+
+.CharacterSheet.Loaded{
+  background: {
+    color: white;
+  };
+  margin:10px;
+  img.img-thumbnail {
+    float: left;
+    margin:5px;
+  }
+  #main-content {
+    margin-left: 310px;
+    padding:10px;
+  }
+}
